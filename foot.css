@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* change to your preferred hover color */
+}
+
+section {
+    padding: 50px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: centre;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+#news {
+    background-color: #f9f9f9;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+    color: #333;
+}
+
+.news-item p {
+    color: #666;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the logo a circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Adds a smooth hover effect */
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Scales up the logo on hover */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('398274309_1299980124042423_3885384624683805364_n.png'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Set the text color for better visibility on the background */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for better readability */
+    color: white;
+    padding: 1em;
+    text-align: center;
+
+
+
+#image-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-section img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.social-button {
+    background-color: #3b5998; /* Facebook color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.social-button:hover {
+    background-color: #4c70ba; /* Darker Facebook color on hover */
+}
+
+/* Style for Instagram button */
+.social-button:nth-child(2) {
+    background-color: #e4405f; /* Instagram color */
+}
+
+.social-button:nth-child(2):hover {
+    background-color: #ed6b91; /* Darker Instagram color on hover */
+}
